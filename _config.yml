@@ -1,12 +1,12 @@
 # Site settings
-title:
-email:
+title: PulseApp
+email: varun@verve3.io
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
-twitter_username:
-github_username:
+twitter_username: rainmaker490
+github_username: rainmaker490
 
 # Build settings
 markdown: kramdown
