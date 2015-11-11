@@ -49,7 +49,7 @@ p {
 
 .bg-dark {
     background-color: rgb(169,210,212);
-    color: white;
+    color: black;
 }
 
 .text-faded {
@@ -130,7 +130,7 @@ aside {
             background-color: white;
             border-color: rgb(255,194,113);
             .navbar-header .navbar-brand {
-                color: $theme-primary;
+                color: darken(rgb(255,194,113), 70%);
                 font-size: 14px;
                 &:hover,
                 &:focus {
@@ -139,9 +139,9 @@ aside {
             }
             .nav > li > a,
             .nav > li > a:focus {
-                color: rgb(255,194,113);
+                color: rgb(169,210,212);
                 &:hover {
-                    color: rgb(255,194,113);
+                    color: rgb(169,210,212);
                 }
             }
         }
