@@ -9,7 +9,7 @@ body {
 }
 
 hr {
-    border-color: $theme-primary;
+    border-color: black;
     border-width: 3px;
     max-width: 50px;
 }
@@ -20,10 +20,10 @@ hr.light {
 
 a {
     @include transition-all;
-    color: $theme-primary;
+    color: black;
     &:hover,
     &:focus {
-        color: darken($theme-primary, 10%);
+        color: rgb(169,210,212);
     }
 }
 
@@ -47,7 +47,7 @@ p {
 }
 
 .bg-dark {
-    background-color: $theme-dark;
+    background-color: rgb(169,210,212);
     color: white;
 }
 
@@ -70,18 +70,18 @@ aside {
 // Navigation
 
 .navbar-default {
-    background-color: white;
+    background-color: rgb(255,194,113);
     border-color: rgba($theme-dark, .5);
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
-        color: $theme-primary;
+        color: white;
         @include sans-serif-font;
         font-weight: 700;
         text-transform: uppercase;
         &:hover,
         &:focus {
-            color: darken($theme-primary, 10%);
+            color: black;
         }
     }
     .nav {
@@ -91,38 +91,38 @@ aside {
                 text-transform: uppercase;
                 font-weight: 700;
                 font-size: 13px;
-                color: $theme-dark;
+                color: white;
                 &:hover {
-                    color: $theme-primary;
+                    color: black;
                 }
             }
             &.active {
                 > a,
                 > a:focus {
                     color: $theme-primary !important;
-                    background-color: transparent;
+                    background-color: rgb(255,194,113);
                     &:hover {
-                        background-color: transparent;
+                        background-color: rgb(255,194,113);
                     }
                 }
             }
         }
     }
     @media (min-width: 768px) {
-        background-color: transparent;
-        border-color: rgba(white, .3);
+        background-color: white;
+        border-color: rgba(black, .3);
         .navbar-header .navbar-brand {
-            color: rgba(white, .7);
+            color: rgba(black, .7);
             &:hover,
             &:focus {
-                color: white;
+                color: rgb(255,194,113);
             }
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: rgba(white, .7);
+            color: rgba(black, .7);
             &:hover {
-                color: white;
+                color: rgb(255,194,113);
             }
         }
         &.affix {
