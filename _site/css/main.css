@@ -36,7 +36,7 @@ p {
   margin-bottom: 20px; }
 
 .bg-primary {
-  background-color: #F05F40; }
+  background-color: #ffc271; }
 
 .bg-dark {
   background-color: #222;
@@ -122,7 +122,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url("../img/header.jpg");
+  background-color: #a9d2d4;
   text-align: center;
   color: white; }
   header .header-content {
