@@ -23,7 +23,7 @@ a {
     color: black;
     &:hover,
     &:focus {
-        color: rgb(169,210,212);
+        color: rgb(212,222,223);
     }
 }
 
@@ -48,7 +48,7 @@ p {
 }
 
 .bg-dark {
-    background-color: rgb(169,210,212);
+    background-color: rgb(212,222,223);
     color: black;
 }
 
@@ -139,9 +139,9 @@ aside {
             }
             .nav > li > a,
             .nav > li > a:focus {
-                color: rgb(169,210,212);
+                color: rgb(212,222,223);
                 &:hover {
-                    color: rgb(169,210,212);
+                    color: rgb(212,222,223);
                 }
             }
         }
@@ -156,7 +156,7 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-color: rgb(169,210,212);
+    background-color: rgb(212,222,223);
     // background-image: url('../img/header.jpg');
     text-align: center;
     color: rgb(255,194,113);
@@ -288,7 +288,7 @@ header {
 
 // Bootstrap Overrides
 .text-primary {
-    color: rgb(169,210,212);
+    color: rgb(212,222,223);
 }
 
 .no-gutter > [class*='col-'] {
@@ -298,11 +298,11 @@ header {
 
 // Button Styles
 .btn-default {
-    @include button-variant(rgb(255,194,113), white, rgb(169,210,212));
+    @include button-variant(rgb(255,194,113), white, rgb(212,222,223));
 }
 
 .btn-primary {
-    @include button-variant(white, rgb(255,194,113),rgb(169,210,212));
+    @include button-variant(white, rgb(255,194,113),rgb(212,222,223));
 }
 
 .btn {
