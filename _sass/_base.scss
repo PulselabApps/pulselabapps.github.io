@@ -23,7 +23,7 @@ a {
     color: black;
     &:hover,
     &:focus {
-        color: rgb(212,222,223);
+        color: rgb(187,228,230);
     }
 }
 
@@ -44,11 +44,11 @@ p {
 }
 
 .bg-primary {
-    background-color: rgb(255,194,113);
+    background-color: rgb(230,169,88);
 }
 
 .bg-dark {
-    background-color: rgb(212,222,223);
+    background-color: rgb(187,228,230);
     color: black;
 }
 
@@ -71,18 +71,18 @@ aside {
 // Navigation
 
 .navbar-default {
-    background-color: rgb(255,194,113);
-    border-color: rgb(255,194,113);
+    background-color: rgb(230,169,88);
+    border-color: rgb(230,169,88);
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
-        color: rgb(255,194,113);
+        color: rgb(230,169,88);
         @include sans-serif-font;
         font-weight: 700;
         text-transform: uppercase;
         &:hover,
         &:focus {
-            color: rgb(255,194,113);
+            color: rgb(230,169,88);
         }
     }
     .nav {
@@ -92,26 +92,26 @@ aside {
                 text-transform: uppercase;
                 font-weight: 700;
                 font-size: 13px;
-                color: rgb(255,194,113);
+                color: rgb(230,169,88);
                 &:hover {
-                    color: rgb(255,194,113);
+                    color: rgb(230,169,88);
                 }
             }
             &.active {
                 > a,
                 > a:focus {
-                    color: rgb(255,194,113) !important;
-                    color: rgb(255,194,113);
+                    color: rgb(230,169,88) !important;
+                    color: rgb(230,169,88);
                     &:hover {
-                        color: rgb(255,194,113);
+                        color: rgb(230,169,88);
                     }
                 }
             }
         }
     }
     @media (min-width: 768px) {
-        background-color: rgb(255,194,113);
-        border-color: rgb(255,194,113);
+        background-color: rgb(230,169,88);
+        border-color: rgb(230,169,88);
         .navbar-header .navbar-brand {
             color: rgba(black, .7);
             &:hover,
@@ -128,20 +128,20 @@ aside {
         }
         &.affix {
             background-color: white;
-            border-color: rgb(255,194,113);
+            border-color: rgb(230,169,88);
             .navbar-header .navbar-brand {
-                color: darken(rgb(255,194,113), 70%);
+                color: darken(rgb(230,169,88), 70%);
                 font-size: 14px;
                 &:hover,
                 &:focus {
-                    color: darken(rgb(255,194,113), 70%);
+                    color: darken(rgb(230,169,88), 70%);
                 }
             }
             .nav > li > a,
             .nav > li > a:focus {
-                color: rgb(212,222,223);
+                color: black;
                 &:hover {
-                    color: rgb(212,222,223);
+                    color: rgb(187,228,230);
                 }
             }
         }
@@ -156,10 +156,10 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-color: rgb(212,222,223);
+    background-color: rgb(187,228,230);
     // background-image: url('../img/header.jpg');
     text-align: center;
-    color: rgb(255,194,113);
+    color: rgb(230,169,88);
     .header-content {
         position: relative;
         text-align: center;
@@ -288,7 +288,7 @@ header {
 
 // Bootstrap Overrides
 .text-primary {
-    color: rgb(212,222,223);
+    color: rgb(187,228,230);
 }
 
 .no-gutter > [class*='col-'] {
@@ -298,11 +298,11 @@ header {
 
 // Button Styles
 .btn-default {
-    @include button-variant(rgb(255,194,113), white, rgb(212,222,223));
+    @include button-variant(rgb(230,169,88), white, rgb(187,228,230));
 }
 
 .btn-primary {
-    @include button-variant(white, rgb(255,194,113),rgb(212,222,223));
+    @include button-variant(white, rgb(230,169,88),rgb(187,228,230));
 }
 
 .btn {
@@ -312,7 +312,7 @@ header {
     font-weight: 700;
     text-transform: uppercase;
     color: white;
-    background-color: rgb(255,194,113);
+    background-color: rgb(230,169,88);
 }
 
 .btn-xl {
@@ -321,7 +321,7 @@ header {
 
 // Contact
 #contact .fa {
-    color: rgb(255,194,113);
+    color: rgb(230,169,88);
     font-size: 4em;
 }
 
