@@ -34,6 +34,7 @@ h4,
 h5,
 h6 {
     @include sans-serif-font;
+    color: black
 }
 
 p {
@@ -71,17 +72,17 @@ aside {
 
 .navbar-default {
     background-color: rgb(255,194,113);
-    border-color: rgba($theme-dark, .5);
+    border-color: rgb(255,194,113);
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
-        color: white;
+        color: rgb(255,194,113);
         @include sans-serif-font;
         font-weight: 700;
         text-transform: uppercase;
         &:hover,
         &:focus {
-            color: black;
+            color: rgb(255,194,113);
         }
     }
     .nav {
@@ -91,56 +92,56 @@ aside {
                 text-transform: uppercase;
                 font-weight: 700;
                 font-size: 13px;
-                color: white;
+                color: rgb(255,194,113);
                 &:hover {
-                    color: black;
+                    color: rgb(255,194,113);
                 }
             }
             &.active {
                 > a,
                 > a:focus {
-                    color: $theme-primary !important;
-                    background-color: rgb(255,194,113);
+                    color: rgb(255,194,113) !important;
+                    color: rgb(255,194,113);
                     &:hover {
-                        background-color: rgb(255,194,113);
+                        color: rgb(255,194,113);
                     }
                 }
             }
         }
     }
     @media (min-width: 768px) {
-        background-color: white;
-        border-color: rgba(black, .3);
+        background-color: rgb(255,194,113);
+        border-color: rgb(255,194,113);
         .navbar-header .navbar-brand {
             color: rgba(black, .7);
             &:hover,
             &:focus {
-                color: rgb(255,194,113);
+                color: black;
             }
         }
         .nav > li > a,
         .nav > li > a:focus {
             color: rgba(black, .7);
             &:hover {
-                color: rgb(255,194,113);
+                color: black;
             }
         }
         &.affix {
             background-color: white;
-            border-color: rgba($theme-dark, .5);
+            border-color: rgb(255,194,113);
             .navbar-header .navbar-brand {
                 color: $theme-primary;
                 font-size: 14px;
                 &:hover,
                 &:focus {
-                    color: darken($theme-primary, 10%);
+                    color: darken(rgb(255,194,113), 70%);
                 }
             }
             .nav > li > a,
             .nav > li > a:focus {
-                color: $theme-dark;
+                color: rgb(255,194,113);
                 &:hover {
-                    color: $theme-primary;
+                    color: rgb(255,194,113);
                 }
             }
         }
@@ -158,7 +159,7 @@ header {
     background-color: rgb(169,210,212);
     // background-image: url('../img/header.jpg');
     text-align: center;
-    color: white;
+    color: rgb(255,194,113);
     .header-content {
         position: relative;
         text-align: center;
@@ -176,7 +177,7 @@ header {
             }
             p {
                 font-weight: 300;
-                color: rgba(white, .7);
+                color: rgba(black, .7);
                 font-size: 16px;
                 margin-bottom: 50px;
             }
@@ -297,7 +298,7 @@ header {
 
 // Button Styles
 .btn-default {
-    @include button-variant($theme-dark, white, white);
+    @include button-variant(rgb(255,194,113), white, white);
 }
 
 .btn-primary {
@@ -310,6 +311,7 @@ header {
     border-radius: 300px;
     font-weight: 700;
     text-transform: uppercase;
+    // color: rgb(255,194,113)
 }
 
 .btn-xl {
@@ -318,7 +320,7 @@ header {
 
 // Contact
 #contact .fa {
-    color: $theme-dark;
+    color: rgb(255,194,113);
     font-size: 4em;
 }
 
