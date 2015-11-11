@@ -233,7 +233,7 @@ header {
         color: white;
         opacity: 0;
         display: block;
-        background: rgba( $theme-primary, .9 );
+        background: rgba(255,194,113, .9 );
         position: absolute;
         bottom: 0;
         text-align: center;
@@ -288,7 +288,7 @@ header {
 
 // Bootstrap Overrides
 .text-primary {
-    color: $theme-primary;
+    color: rgb(169,210,212);
 }
 
 .no-gutter > [class*='col-'] {

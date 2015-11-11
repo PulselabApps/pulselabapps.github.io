@@ -184,7 +184,7 @@ header {
     color: white;
     opacity: 0;
     display: block;
-    background: rgba(240, 95, 64, 0.9);
+    background: rgba(255, 194, 113, 0.9);
     position: absolute;
     bottom: 0;
     text-align: center;
@@ -221,7 +221,7 @@ header {
   margin: 0 auto 20px; }
 
 .text-primary {
-  color: #F05F40; }
+  color: #a9d2d4; }
 
 .no-gutter > [class*='col-'] {
   padding-right: 0;
