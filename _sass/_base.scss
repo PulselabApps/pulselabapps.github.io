@@ -298,20 +298,21 @@ header {
 
 // Button Styles
 .btn-default {
-    @include button-variant(rgb(255,194,113), white, white);
+    @include button-variant(rgb(255,194,113), white, rgb(169,210,212));
 }
 
 .btn-primary {
-    @include button-variant(white, $theme-primary, $theme-primary);
+    @include button-variant(white, rgb(255,194,113),rgb(169,210,212));
 }
 
 .btn {
     @include sans-serif-font;
-    border: none;
+    border-color: black;
     border-radius: 300px;
     font-weight: 700;
     text-transform: uppercase;
-    // color: rgb(255,194,113)
+    color: white;
+    background-color: rgb(255,194,113);
 }
 
 .btn-xl {
