@@ -1,10 +1,11 @@
 ## Demo
 -------
-You can see the live demo of [PulseLab-IO](http://pulselab.io)
+* You can see the live demo of [PulseLab-IO](http://pulselab.io)
+	- This is the web page on desktop browser.
+	![Desktop](/assets/demo/pulseLabIODemo.jpg)
+* iPad Screenshot
+	![Desktop](/assets/demo/pulseLabIOiPadDemo.jpg)
 
-This is the web page on desktop browser.
-
-![Desktop](/assets/demo/pulseLabIODemo.jpg)
 
 ## Configuration
 -------
