@@ -3,7 +3,8 @@
 * You can see the live demo of [PulseLab-IO](http://pulselab.io)
 	- This is the web page on desktop browser.
 	![Desktop](/assets/demo/pulseLabIODemo.jpg)
-* iPad Screenshot
+* iPad Screenshot:
+	- Multiple Choice Answers Vies
 	![Desktop](/assets/demo/pulseLabIOiPadDemo.jpg)
 
 
